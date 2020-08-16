@@ -34,7 +34,11 @@ int unionn (pnode s,pnode t)
 
 int main()
 {
+    int x ;
+    //cin >> x;
+    int a = 1;
     cout << "hello world" << endl;
     return 0;
 }
+
 
