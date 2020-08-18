@@ -5,3 +5,5 @@
   + 学会使用遍历，二叉搜索树顺序天然跟中序遍历一致
   + 
 
+* No.109  Convert Sorted List to Binary Search Tree
+  + 同样使用中序遍历
