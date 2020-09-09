@@ -53,11 +53,10 @@ public:
 };
 
 int main(){
-	Solution sol = Solution();
-    vector<vector<int>> inc = {{1,1,1},{2,5,0},{10,9,8}};
-    //vector<vector<int>> inc =  {{0,4,5},{4,8,8},{8,6,1},{10,10,0}};
-    vector<vector<int>> res = {{0,0,0},{20,2,6},{9,2,6},{10,18,3},{8,14,9}};
-    vector<int> jump = {2, 6,3,1,1,1,1};
-    sol.minJump(jump);
+	int a = INT_MIN;
+    for(int i = 0; i < 32; ++i){
+        cout << (a & 1) << endl;
+        a = a >> 1;
+    }
   	return 0;
 }
